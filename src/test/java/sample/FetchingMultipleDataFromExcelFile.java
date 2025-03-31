@@ -21,7 +21,7 @@ public class FetchingMultipleDataFromExcelFile {
 			}
 			System.out.println();*/
 		ExcelUtility eUtil=new ExcelUtility();
-		List<String>value = eUtil.getMultipleDataFromExcelFile("flower", 0, 0);
+		List<String>value = eUtil.getMultipleDataFromExcelFile("flower", 1, 1);
 		System.out.println(value);
 	}
 }
