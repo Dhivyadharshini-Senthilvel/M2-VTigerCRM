@@ -21,7 +21,6 @@ public class TC_001 extends BaseClass {
 	  String fName=eUtil.getDataFromExcelFile("Leads", 1, 1);
 	  String lName=eUtil.getDataFromExcelFile("Leads", 1, 2);
 	  String company=eUtil.getDataFromExcelFile("Leads", 1, 3);
-	  Assert.fail();
 	 CreatingNewLeadPage cnlp = new CreatingNewLeadPage(driver);
 	 cnlp.createNewLead(fName, lName, company);
 	  }
